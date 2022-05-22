@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>心血来潮想做个开机动画</title>
+      <link href="post/19d7e22f.html"/>
+      <url>post/19d7e22f.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="驱动🎶"><a href="#驱动🎶" class="headerlink" title="驱动🎶"></a>驱动🎶</h2><p>今天打开玩机工具箱的时候，在系统设置里面偶然看到可以更替开机动画的东西<br>确实，在我刷机之后更注重的是性能和使用方面的优化<br>而开机动画确确实实被我忽略了，虽然可能手机开机动画一个月都不知道能不能看到一次<br>但是我有句名言怎么说来着</p><div style="text-align:center;"><font size=5>我可以不用，但我一定要有</font></div><br>毕竟仔细想想，自己的手机，开机动画居然不是自己设计的，这合理吗？很明显不合理啊<h2 id="开工-gt-gt-设计✨"><a href="#开工-gt-gt-设计✨" class="headerlink" title="开工&gt;&gt;设计✨"></a>开工&gt;&gt;设计✨</h2><p>我一开始的想法是，找个可以制作简易动画效果的小玩意<br>毕竟我不想直接上 AE，太麻烦<br>于是我去b站看了看，推荐的什么万彩什么大师，各种动画软件</p><p>但他们的动画软件是用来做动画片的喂，我只是要做个小动效。有点专业不对口<br>而我的想法也很简单，先做个简单的，以后再慢慢更新。先拿我的小logo做个动效就OK啦</p><p>于是最后我还是只能打开 pr 😥（烦死了</p><div style="text-align:center;">------------------pr打开中-------------------</div><br>但是最气人的来了，我电脑貌似对这个版本的pr没有硬件加速，也就是集显做特效。我想点个书写效果，画笔拉一下卡一下，硬生生浪费我十分钟的时间让我放弃这个效果。<p>这可是我最钟爱的效果啊😭<br>但是没办法，只能找个有点像的擦除效果。因为是png透明图，很多花里胡哨的效果也不能用。于是我只好再加个色彩变化效果，让画面看起来不是那么地单（傻）调（逼）。<br>由于我的logo“Y”是歪着的，所以在空白的地方再加点东西，平衡一下视觉</p><p>emmm，还行还行还行</p><img src="https://cdn.jsdelivr.net/gh/hhy-2021/img/Yiang202205221544681.png"/><h2 id="完工-gt-gt-配适🎈"><a href="#完工-gt-gt-配适🎈" class="headerlink" title="完工&gt;&gt;配适🎈"></a>完工&gt;&gt;配适🎈</h2><p>师夷长技以制夷，要想知道开机动画要做出什么文件，那就直接拆包！<br>把系统的开机玩机包取下来解压缩，发现有2个文件夹还有一个txt文本<br>显而易见吧，两个放图片，一个是参数</p><p>所以我根据这些一下子就弄好了，很快啊！</p><p>不过还是有很多小插曲的</p><ul><li>在pr导出动图的时候，选的是gif，当然位置是桌面，我的桌面瞬间被几百张小gif填满（还好没给我搞崩）</li><li>最后要的图片是png格式，但是pr好像不能导png，所以找了很多视频转png的，有手机软件做的，有python用代码的，但最后还是相信了格式工厂</li><li>那个傻逼手机软件说我做的视频太短，我去加长了结果还是转不了，淦</li></ul><h2 id="末🎢"><a href="#末🎢" class="headerlink" title="末🎢"></a>末🎢</h2><p>最后，它来了！</p><img src="https://cdn.jsdelivr.net/gh/hhy-2021/img/Yiang202205221556636.gif" width=50%>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> MIUI </tag>
+            
+            <tag> 平面设计 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>年度520特辑</title>
+      <link href="post/20220520.html"/>
+      <url>post/20220520.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>先搁着，过几天再来写</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逸 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 节日 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>手机root啦，解锁的不止bl锁</title>
       <link href="post/d5eb1fe4.html"/>
       <url>post/d5eb1fe4.html</url>
@@ -481,9 +533,9 @@
       
         <tags>
             
-            <tag> 服务器 </tag>
-            
             <tag> 白嫖 </tag>
+            
+            <tag> 服务器 </tag>
             
             <tag> 自动化 </tag>
             
@@ -776,9 +828,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 探索 </tag>
+            
+            <tag> HTML </tag>
             
             <tag> 白嫖 </tag>
             
@@ -836,11 +888,11 @@
       
         <tags>
             
+            <tag> 探索 </tag>
+            
             <tag> 网站历程 </tag>
             
             <tag> vlog </tag>
-            
-            <tag> 探索 </tag>
             
             <tag> 新坑 </tag>
             
@@ -1337,9 +1389,9 @@
             
             <tag> 折射 </tag>
             
-            <tag> 游戏 </tag>
-            
             <tag> 怀旧 </tag>
+            
+            <tag> 游戏 </tag>
             
             <tag> 讲故事的人 </tag>
             
@@ -1532,11 +1584,11 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
-            
             <tag> 自我总结 </tag>
             
             <tag> 探索 </tag>
+            
+            <tag> 网站历程 </tag>
             
             <tag> Blog2.0 </tag>
             
@@ -1571,9 +1623,9 @@
             
             <tag> 纪念 </tag>
             
-            <tag> 游戏 </tag>
-            
             <tag> 人间观察者 </tag>
+            
+            <tag> 游戏 </tag>
             
         </tags>
       
@@ -2141,11 +2193,11 @@
       
         <tags>
             
+            <tag> MIUI </tag>
+            
             <tag> 小米 </tag>
             
             <tag> 鸿蒙 </tag>
-            
-            <tag> MIUI </tag>
             
         </tags>
       
@@ -2492,9 +2544,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
-            
             <tag> 探索 </tag>
+            
+            <tag> 网站历程 </tag>
             
             <tag> Blog2.0 </tag>
             
@@ -2579,9 +2631,9 @@
             
             <tag> 纪念 </tag>
             
-            <tag> 游戏 </tag>
-            
             <tag> 怀旧 </tag>
+            
+            <tag> 游戏 </tag>
             
             <tag> 心情 </tag>
             
@@ -2781,9 +2833,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
-            
             <tag> 探索 </tag>
+            
+            <tag> 网站历程 </tag>
             
         </tags>
       
@@ -2850,7 +2902,7 @@
       <link href="post/bfc6ec80.html"/>
       <url>post/bfc6ec80.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#49;&#64;&#x79;&#x69;&#x61;&#x6e;&#103;&#x2e;&#115;&#116;&#111;&#x72;&#101;">&#49;&#64;&#x79;&#x69;&#x61;&#x6e;&#103;&#x2e;&#115;&#116;&#111;&#x72;&#101;</a></li><li><a href="mailto:&#104;&#x40;&#121;&#105;&#x61;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#114;&#x65;">&#104;&#x40;&#121;&#105;&#x61;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#114;&#x65;</a></li><li><a href="mailto:&#x36;&#54;&#54;&#64;&#x79;&#105;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#x72;&#101;">&#x36;&#54;&#54;&#64;&#x79;&#105;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#x72;&#101;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#97;&#98;&#x61;&#x62;&#97;&#98;&#97;&#x40;&#x79;&#x69;&#97;&#110;&#103;&#46;&#x73;&#116;&#x6f;&#x72;&#101;">&#97;&#98;&#x61;&#x62;&#97;&#98;&#97;&#x40;&#x79;&#x69;&#97;&#110;&#103;&#46;&#x73;&#116;&#x6f;&#x72;&#101;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#97;&#x62;&#97;&#x62;&#x61;&#98;&#97;&#64;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#115;&#x74;&#111;&#x72;&#101;">&#97;&#x62;&#97;&#x62;&#x61;&#98;&#97;&#64;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#115;&#x74;&#111;&#x72;&#101;</a></em>”到我的邮箱<em><a href="mailto:&#104;&#x68;&#x79;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#46;&#x73;&#x74;&#111;&#x72;&#101;">&#104;&#x68;&#x79;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#46;&#x73;&#x74;&#111;&#x72;&#101;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#49;&#x40;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#116;&#111;&#x72;&#x65;">&#49;&#x40;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#116;&#111;&#x72;&#x65;</a></li><li><a href="mailto:&#x68;&#x40;&#x79;&#105;&#97;&#110;&#103;&#46;&#x73;&#116;&#111;&#x72;&#101;">&#x68;&#x40;&#x79;&#105;&#97;&#110;&#103;&#46;&#x73;&#116;&#111;&#x72;&#101;</a></li><li><a href="mailto:&#54;&#54;&#54;&#64;&#x79;&#x69;&#x61;&#110;&#103;&#46;&#115;&#x74;&#111;&#x72;&#101;">&#54;&#54;&#54;&#64;&#x79;&#x69;&#x61;&#110;&#103;&#46;&#115;&#x74;&#111;&#x72;&#101;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#97;&#98;&#97;&#x62;&#97;&#x62;&#x61;&#64;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#x73;&#116;&#111;&#114;&#101;">&#97;&#98;&#97;&#x62;&#97;&#x62;&#x61;&#64;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#x73;&#116;&#111;&#114;&#101;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#97;&#x62;&#97;&#98;&#97;&#x62;&#97;&#64;&#121;&#105;&#97;&#110;&#x67;&#46;&#115;&#x74;&#x6f;&#x72;&#x65;">&#97;&#x62;&#97;&#98;&#97;&#x62;&#97;&#64;&#121;&#105;&#97;&#110;&#x67;&#46;&#115;&#x74;&#x6f;&#x72;&#x65;</a></em>”到我的邮箱<em><a href="mailto:&#104;&#104;&#121;&#x40;&#x79;&#105;&#x61;&#x6e;&#x67;&#46;&#x73;&#116;&#111;&#114;&#x65;">&#104;&#104;&#121;&#x40;&#x79;&#105;&#x61;&#x6e;&#x67;&#46;&#x73;&#116;&#111;&#114;&#x65;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
       
       
       <categories>
@@ -2881,7 +2933,7 @@
       <link href="post/10da8cd0.html"/>
       <url>post/10da8cd0.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#88;&#x58;&#88;&#x40;&#x79;&#x69;&#x61;&#x6e;&#103;&#46;&#115;&#x74;&#x6f;&#x72;&#101;">&#88;&#x58;&#88;&#x40;&#x79;&#x69;&#x61;&#x6e;&#103;&#46;&#115;&#x74;&#x6f;&#x72;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://cdn.jsdelivr.net/gh/hhy-2021/img/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#x58;&#88;&#88;&#64;&#121;&#x69;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#114;&#101;">&#x58;&#88;&#88;&#64;&#121;&#x69;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#114;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://cdn.jsdelivr.net/gh/hhy-2021/img/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
       
       
       <categories>
@@ -2974,9 +3026,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
-            
             <tag> 探索 </tag>
+            
+            <tag> 网站历程 </tag>
             
             <tag> 服务器 </tag>
             
