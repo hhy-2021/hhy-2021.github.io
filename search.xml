@@ -4,6 +4,52 @@
   
     
     <entry>
+      <title>博客大作战</title>
+      <link href="post/c299e304.html"/>
+      <url>post/c299e304.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="tag优化"><a href="#tag优化" class="headerlink" title="tag优化"></a>tag优化</h3><p>这是以前的标签，很乱<br><img src="https://img.yiang.store/202301280022743.png"/><br>以后再也见不到这样的场景了，标签删改了很多</p><p>今晚翻了很早之前写的各种东西，也顺便优化一下所有 tag，因为乱标太多tags导致hexo生成html的时候要很久，久到我刷牙回来指令框还在那刷刷跑。<br>然后顺便看了一下，确实，我进步很大（高情商），我以前怎么那么傻逼（低情商<br>虽然前期没啥好写又要写很多文章让人觉得我很懂博客网站，但是我的文学素养经不起自己的考验啊！</p><p>看得我真尴尬，恨不得把之前写的全删了，但是我没有，博客嘛，可能就像罗永浩说的，<em>“永远也不会删掉之前说过的”</em>、<em>“言论自由”</em></p><h3 id="今天还发生了另一件很烦的事情"><a href="#今天还发生了另一件很烦的事情" class="headerlink" title="今天还发生了另一件很烦的事情"></a>今天还发生了另一件很烦的事情</h3><p>我在GitHub上面clone了一个ai项目到本地，然后<code>npm i</code>的时候一直报错，查错误码的时候找到的解决办法都是降级node版本<br>于是我按照教程下载和使用<code>nvm</code>来管理<code>node.js</code>，期间遇到很多报错，比如node版本有了但是没有npm，例如用cnpm代替npm依然error</p><p>我的nodejs版本从12.14.0降到10.15.0，依然无法使用<code>npm i</code>，最后我放弃了</p><p>然后到了晚上发现我的摄影作品站，不能在本地执行hexo的指令，报错看不懂但依稀觉得是node版本问题，然后又重新安装，然后测试</p><p>我明明记得我很早之前就得出了不要作死的结论，没想到今天依然因为作死浪费了一个下午的时间</p><h3 id="对于以前的内容"><a href="#对于以前的内容" class="headerlink" title="对于以前的内容"></a>对于以前的内容</h3><p>想了很久还是留着吧，不美好的记忆也是记忆，删了也蛮可惜的。以前是堆“量”，现在是堆“质”了，我不能做那个人性的自己了(ノへ￣、)<br>现在也是为后面，网站在各社交平台官宣做铺垫，不调教不发布</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 我的网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大年初一</title>
+      <link href="post/2b9b9f99.html"/>
+      <url>post/2b9b9f99.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今年的过年与以往不同，多了几组照片</p><p>其实我家都不怎么拍照，到今天为止还没有一张全家福，直到我把三脚架架到了众人面前</p><p>全家福有全家福的意义，而我拍出来的又是另一种</p><hr><p>今年的年度总结上我写了关于相机的很长的篇幅，大概描述了我如何从玩科技到把这些技术带到生活，相机是个承载这些的载体。<br>今年的过年，不管是在家祭祖还是观赏烟花，我的脖子都多了一条 Nikon 的相机带，也正式地拿起了记载了我家的历史的笔</p><p>不光是全家福，我还拍摄了很多记录的瞬间，比如“献纸”的时候（烧纸钱），小孩的动作，饭菜餐桌等等。很有意义，现在节奏太快了，快到每次过年的时候我都忘了去年过年时又多了什么感动。</p><p>晚上的时候烟花璀璨也在我的相机里呈现，虽然有一些照片来自朋友的手机，但不妨碍我把记忆也刻写进去。<br><strong>烟火的绽放是瞬间的，但数码年代里，那些关于年的喜悦得以长期保留。</strong></p><p>其实今年的过年还是很普通，大家吃一大桌子的菜，聊聊天，然后吃掉剩下的菜，然后聊聊天，然后吃掉剩下的放在冰箱里的食材，然后聊聊天……<br>😂<br>但每个一样的动作在不同时空里也是不同的，就像现在写博客的我老想装文艺，而之前的我不屑于流露感情</p><p>照片==》<a href="https://photo.yiang.store/posts/52369/">Yiang’s摄影作品：年 · 味</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 节日 </tag>
+            
+            <tag> 时代说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建Minecraft游戏服务器</title>
       <link href="post/mc-server2023.html"/>
       <url>post/mc-server2023.html</url>
@@ -22,9 +68,9 @@
             
             <tag> 探索 </tag>
             
-            <tag> 服务器 </tag>
-            
             <tag> 第九艺术 </tag>
+            
+            <tag> 服务器 </tag>
             
         </tags>
       
@@ -211,7 +257,7 @@
             
             <tag> 探索 </tag>
             
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 思路 </tag>
             
@@ -238,6 +284,8 @@
       
         <tags>
             
+            <tag> Windows </tag>
+            
             <tag> 生活记录仪 </tag>
             
         </tags>
@@ -263,7 +311,7 @@
       
         <tags>
             
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 生活记录仪 </tag>
             
@@ -298,11 +346,11 @@
             
             <tag> 公众号同步 </tag>
             
-            <tag> 服务器 </tag>
+            <tag> 互联网冲浪 </tag>
             
             <tag> 纪念 </tag>
             
-            <tag> 互联网冲浪 </tag>
+            <tag> 服务器 </tag>
             
         </tags>
       
@@ -329,9 +377,7 @@
             
             <tag> 补丁计划 </tag>
             
-            <tag> wwe </tag>
-            
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
         </tags>
       
@@ -358,7 +404,7 @@
             
             <tag> 花里胡哨 </tag>
             
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 生活记录仪 </tag>
             
@@ -369,7 +415,7 @@
     
     
     <entry>
-      <title>FTP协议让平板和手机的距离再次缩短</title>
+      <title>FTP协议||让平板和手机的距离再次缩短</title>
       <link href="post/64d96545.html"/>
       <url>post/64d96545.html</url>
       
@@ -385,13 +431,11 @@
       
         <tags>
             
-            <tag> 酷安 </tag>
-            
             <tag> 小米 </tag>
             
             <tag> 科技 </tag>
             
-            <tag> 教程 </tag>
+            <tag> 公众号同步 </tag>
             
         </tags>
       
@@ -472,11 +516,13 @@
       
         <tags>
             
-            <tag> 修仙之路 </tag>
-            
             <tag> 公众号同步 </tag>
             
-            <tag> 网站 </tag>
+            <tag> 我的网站 </tag>
+            
+            <tag> 百万项目 </tag>
+            
+            <tag> 自媒体 </tag>
             
         </tags>
       
@@ -561,8 +607,6 @@
             
             <tag> 摄影 </tag>
             
-            <tag> 日记本子 </tag>
-            
         </tags>
       
     </entry>
@@ -586,11 +630,11 @@
       
         <tags>
             
-            <tag> 新坑 </tag>
-            
-            <tag> 网站 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> 百万项目 </tag>
+            
+            <tag> 新坑 </tag>
             
             <tag> 自媒体 </tag>
             
@@ -621,9 +665,9 @@
             
             <tag> 人间观察者 </tag>
             
-            <tag> 计划 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站 </tag>
+            <tag> 百万项目 </tag>
             
         </tags>
       
@@ -648,7 +692,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> 心路历程 </tag>
             
@@ -771,7 +815,7 @@
       
         <tags>
             
-            <tag> 分析 </tag>
+            <tag> 伟大空想家 </tag>
             
         </tags>
       
@@ -799,8 +843,6 @@
             <tag> 生活记录仪 </tag>
             
             <tag> 时光胶囊 </tag>
-            
-            <tag> 日记本子 </tag>
             
         </tags>
       
@@ -898,15 +940,11 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 计划 </tag>
+            <tag> 百万项目 </tag>
             
             <tag> 伟大空想家 </tag>
             
             <tag> 新坑 </tag>
-            
-            <tag> 百万项目 </tag>
-            
-            <tag> 创业 </tag>
             
         </tags>
       
@@ -956,15 +994,15 @@
       
         <tags>
             
+            <tag> 百万项目 </tag>
+            
             <tag> 探索 </tag>
+            
+            <tag> 互联网冲浪 </tag>
             
             <tag> 伟大空想家 </tag>
             
-            <tag> 百万项目 </tag>
-            
             <tag> 自媒体 </tag>
-            
-            <tag> 互联网冲浪 </tag>
             
         </tags>
       
@@ -991,11 +1029,11 @@
             
             <tag> 自我总结 </tag>
             
+            <tag> 百万项目 </tag>
+            
             <tag> 伟大空想家 </tag>
             
             <tag> 新坑 </tag>
-            
-            <tag> 百万项目 </tag>
             
             <tag> 自媒体 </tag>
             
@@ -1029,7 +1067,7 @@
       <link href="post/c02506f9.html"/>
       <url>post/c02506f9.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="手机自动更新系统导致root没了"><a href="#手机自动更新系统导致root没了" class="headerlink" title="手机自动更新系统导致root没了"></a>手机自动更新系统导致root没了</h2><p>重新root还开机闪一下就关机。。。只能刷回普通boot包。<br>广告怎么那么多啊！</p><h2 id="后期调色无思路"><a href="#后期调色无思路" class="headerlink" title="后期调色无思路"></a>后期调色无思路</h2><p>怪怪的，怪怪的，怪怪的<br>调了好久看着还行，看了一会别的图片回来，怪怪的！</p><h2 id="Sky光遇"><a href="#Sky光遇" class="headerlink" title="Sky光遇"></a>Sky光遇</h2><p>发现这个游戏还是有大量彩蛋啊什么的，花里胡哨的各种谜语人<br>很适合我这样的人玩<br>但是好难找啊（不看攻略前提）</p><h2 id="找发家致富方法遇到诈骗"><a href="#找发家致富方法遇到诈骗" class="headerlink" title="找发家致富方法遇到诈骗"></a>找发家致富方法遇到诈骗</h2><p>tg群找到吹嘘倒卖话费卡，用USDT交易<br>还好我去查了发现是假的，一收到虚拟货币就跑路的<br>得亏我还注册了USDT的钱包啊操，我的幻想啊</p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="手机自动更新系统导致root没了"><a href="#手机自动更新系统导致root没了" class="headerlink" title="手机自动更新系统导致root没了"></a>手机自动更新系统导致root没了</h2><p>重新root还开机闪一下就关机。。。只能刷回普通boot包。<br>广告怎么那么多啊！</p><h2 id="后期调色无思路"><a href="#后期调色无思路" class="headerlink" title="后期调色无思路"></a>后期调色无思路</h2><p>怪怪的，怪怪的，怪怪的<br>调了好久看着还行，看了一会别的图片回来，怪怪的！</p><h2 id="Sky光遇"><a href="#Sky光遇" class="headerlink" title="Sky光遇"></a>Sky光遇</h2><p>发现这个游戏还是有大量彩蛋啊什么的，花里胡哨的各种谜语人<br>很适合我这样的人玩<br>但是好难找啊（不看攻略前提）</p><h2 id="找发家致富方法遇到诈骗"><a href="#找发家致富方法遇到诈骗" class="headerlink" title="找发家致富方法遇到诈骗"></a>找发家致富方法遇到诈骗</h2><p>tg群找到吹嘘倒卖话费卡，用USDT交易<br>还好我去查了发现是假的，一收到虚拟货币就跑路的<br>得亏我还注册了USDT的钱包啊，我的幻想啊</p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
       
       
       <categories>
@@ -1041,7 +1079,7 @@
       
         <tags>
             
-            <tag> 迷航 </tag>
+            <tag> 不知道是什么 </tag>
             
         </tags>
       
@@ -1097,13 +1135,9 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 计划 </tag>
-            
-            <tag> 新坑 </tag>
-            
             <tag> 百万项目 </tag>
             
-            <tag> 创业 </tag>
+            <tag> 新坑 </tag>
             
         </tags>
       
@@ -1128,9 +1162,7 @@
       
         <tags>
             
-            <tag> 网站 </tag>
-            
-            <tag> 图床 </tag>
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -1155,7 +1187,7 @@
       
         <tags>
             
-            <tag> 网站 </tag>
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -1180,7 +1212,7 @@
       
         <tags>
             
-            <tag> MIUI </tag>
+            <tag> 小米 </tag>
             
             <tag> 平面设计 </tag>
             
@@ -1263,7 +1295,7 @@
             
             <tag> 生活记录仪 </tag>
             
-            <tag> 吃货的尊严 </tag>
+            <tag> 吃东西 </tag>
             
             <tag> 摄影 </tag>
             
@@ -1342,9 +1374,9 @@
             
             <tag> 花里胡哨 </tag>
             
-            <tag> 白嫖 </tag>
+            <tag> 互联网冲浪 </tag>
             
-            <tag> 云函数 </tag>
+            <tag> 白嫖 </tag>
             
         </tags>
       
@@ -1400,7 +1432,7 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> 纪念 </tag>
             
@@ -1429,9 +1461,9 @@
       
         <tags>
             
-            <tag> 服务器 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站 </tag>
+            <tag> 服务器 </tag>
             
             <tag> 域名 </tag>
             
@@ -1458,9 +1490,9 @@
       
         <tags>
             
-            <tag> 怀旧 </tag>
+            <tag> 人间观察者 </tag>
             
-            <tag> 视角 </tag>
+            <tag> 自我总结 </tag>
             
         </tags>
       
@@ -1512,9 +1544,9 @@
             
             <tag> 花里胡哨 </tag>
             
-            <tag> HTML </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站 </tag>
+            <tag> HTML </tag>
             
         </tags>
       
@@ -1591,8 +1623,6 @@
             
             <tag> 人间观察者 </tag>
             
-            <tag> 视角 </tag>
-            
         </tags>
       
     </entry>
@@ -1623,7 +1653,7 @@
       <link href="post/e4615c1f.html"/>
       <url>post/e4615c1f.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>狭义暗网：以 .onion 结尾的特殊网站<br>广义暗网：很难被追踪到真实上网地址的涉黑网络</p><p>在<code>标签:// VPN</code> 中，我不断对于一些互联网协议和VPN、暗网进行一些探索</p><p>主要也是好奇，毕竟在很多地方暗网都被当作一个很神秘的地方</p><p>但我之前用tor进入暗网的时候其实，一点奇怪的东西都没有看到，就是看了几个诈骗网站罢了</p><p>但是我忽略了另一个软件：<strong>Telegram</strong></p><img src="https://img.yiang.store/Yiang202112261335864.webp"/><p>这个在很多国外的大陆up主都会留的群聊联系方式，我一开始还没觉得有什么不对的，毕竟就是一聊天工具（其实也确实很正常，就像留下QQ群那样）</p><p>直到我自己也做起了服务器，才知道telegram的可玩性那么高。可以加接很多接口，和安置很多机器人。</p><p>到这里当然没什么不对，机器人用来发消息嘛</p><p>telegram用手机号便可以进入使用，好像也没啥不对</p><hr><p>但假如</p><p>telegram是没有人监督的</p><p>使用Google voice的虚假手机号，并且用一个虚假的美国人信息加入telegram群聊，就已经可以在身份上匿名<br>网络上匿名就是VPN了</p><p>到这里，很多南亚犯罪团伙就可以联系上大陆了</p><p>但一开始我只知道大概是这样的，但是找不到上家啊。没有中间人的话，怎么直接通过telegram联系犯罪团伙呢</p><p>直到我找到了一些机器人bot，其中还包括拥有搜索引擎的bot，可以利用bot，通过一些黑话搜索到一些群聊<br>bot的盈利思路也很清晰，在提供检索内容的时候打打广告就是了</p><hr><p>所以我就跟着这条线找到了很多存在大量用户的群聊，基本都是10k成员，在线超过4k人数。</p><p>然后我就被再一次刷新了认知。现在我终于信了他们的话，正常人还是少知道一些东西。</p><p>不过我也觉得有些人也就是在忽悠，假钞这种还有人信？</p><p>看到了很多灰黑盈利组织、中间商、还有顾客。生意也多种多样，洗钱的，开赌博网站的，招嫖，狗托等等……不过我觉得我学习能力还是可以的，很多黑话多看几眼就大概知道什么意思了哈哈哈</p><p>有好有坏吧，坏的是人，不是工具。起码telegram对我来说还是有很大帮助的，很多教程在网页根本看不懂，或者出了什么问题，在群聊里还会有人解释一下。也或许是因为这种聊天的方式，也让更多的诈骗、涉黑组织有了机会。</p><hr><p>既然见识过了，那也没必要深究下去。总得有垃圾桶存放垃圾，最好的办法就是不去看它。罪恶的东西看多了，还影响我三观。</p><p>对于暗网和一些不良信息的追踪，就不继续下去啦</p><p><img src="https://img.yiang.store/Blog-img20210529015643.png"></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>狭义暗网：以 .onion 结尾的特殊网站<br>广义暗网：很难被追踪到真实上网地址的涉黑网络</p><p>在<code>标签:// 全球上网</code> 中，我不断对于一些互联网协议和VPN、暗网进行一些探索</p><p>主要也是好奇，毕竟在很多地方暗网都被当作一个很神秘的地方</p><p>但我之前用tor进入暗网的时候其实，一点奇怪的东西都没有看到，就是看了几个诈骗网站罢了</p><p>但是我忽略了另一个软件：<strong>Telegram</strong></p><img src="https://img.yiang.store/Yiang202112261335864.webp"/><p>这个在很多国外的大陆up主都会留的群聊联系方式，我一开始还没觉得有什么不对的，毕竟就是一聊天工具（其实也确实很正常，就像留下QQ群那样）</p><p>直到我自己也做起了服务器，才知道telegram的可玩性那么高。可以加接很多接口，和安置很多机器人。</p><p>到这里当然没什么不对，机器人用来发消息嘛</p><p>telegram用手机号便可以进入使用，好像也没啥不对</p><hr><p>但假如</p><p>telegram是没有人监督的</p><p>使用Google voice的虚假手机号，并且用一个虚假的美国人信息加入telegram群聊，就已经可以在身份上匿名<br>网络上匿名就是VPN了</p><p>到这里，很多南亚犯罪团伙就可以联系上大陆了</p><p>但一开始我只知道大概是这样的，但是找不到上家啊。没有中间人的话，怎么直接通过telegram联系犯罪团伙呢</p><p>直到我找到了一些机器人bot，其中还包括拥有搜索引擎的bot，可以利用bot，通过一些黑话搜索到一些群聊<br>bot的盈利思路也很清晰，在提供检索内容的时候打打广告就是了</p><hr><p>所以我就跟着这条线找到了很多存在大量用户的群聊，基本都是10k成员，在线超过4k人数。</p><p>然后我就被再一次刷新了认知。现在我终于信了他们的话，正常人还是少知道一些东西。</p><p>不过我也觉得有些人也就是在忽悠，假钞这种还有人信？</p><p>看到了很多灰黑盈利组织、中间商、还有顾客。生意也多种多样，洗钱的，开赌博网站的，招嫖，狗托等等……不过我觉得我学习能力还是可以的，很多黑话多看几眼就大概知道什么意思了哈哈哈</p><p>有好有坏吧，坏的是人，不是工具。起码telegram对我来说还是有很大帮助的，很多教程在网页根本看不懂，或者出了什么问题，在群聊里还会有人解释一下。也或许是因为这种聊天的方式，也让更多的诈骗、涉黑组织有了机会。</p><hr><p>既然见识过了，那也没必要深究下去。总得有垃圾桶存放垃圾，最好的办法就是不去看它。罪恶的东西看多了，还影响我三观。</p><p>对于暗网和一些不良信息的追踪，就不继续下去啦</p><p><img src="https://img.yiang.store/Blog-img20210529015643.png"></p>]]></content>
       
       
       <categories>
@@ -1634,8 +1664,6 @@
       
       
         <tags>
-            
-            <tag> VPN </tag>
             
             <tag> 全球上网 </tag>
             
@@ -1666,8 +1694,6 @@
             
             <tag> 京东 </tag>
             
-            <tag> 资金链 </tag>
-            
             <tag> 青龙 </tag>
             
         </tags>
@@ -1693,11 +1719,11 @@
       
         <tags>
             
+            <tag> 探索 </tag>
+            
             <tag> 白嫖 </tag>
             
             <tag> 服务器 </tag>
-            
-            <tag> 自动化 </tag>
             
         </tags>
       
@@ -1782,8 +1808,6 @@
             
             <tag> 时代说 </tag>
             
-            <tag> 元宇宙 </tag>
-            
         </tags>
       
     </entry>
@@ -1807,11 +1831,9 @@
       
         <tags>
             
+            <tag> 人间观察者 </tag>
+            
             <tag> 自我总结 </tag>
-            
-            <tag> 缅怀 </tag>
-            
-            <tag> 思路 </tag>
             
         </tags>
       
@@ -1855,7 +1877,7 @@
       
         <tags>
             
-            <tag> vlog </tag>
+            <tag> 百万项目 </tag>
             
         </tags>
       
@@ -1920,7 +1942,7 @@
       <link href="post/2732395b.html"/>
       <url>post/2732395b.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我何止一次想过，拥有一台正式的服务器<br>也很多次，期盼着那更遥远的云端探索</p><hr><p>如果本地端的文件已经存不下了，我肯定会选择存在云端<br>所以，我的电脑也没有那么多能力来完成一些事情，那就只能求助于云端的老表了</p><p>考虑了很久，没有买ECS，而是买了轻量应用服务器</p><p>当然，不止用来挂jd，还有学习、测试、Blog3.0等等等等</p><p>我从来都不可能只考虑一个东西的，就像企业微信还可以更方便地拿来推送消息</p><hr><p>自从开始萌发搭建网站的想法，服务器就成了我心头的大石。<strong>真正的高级网站，谁愿意只是挂载在GitHub上的静态网站。而真正想做出前端的我，又何曾不想在服务器搭建一个有后端的网站。</strong></p><p>就像以前写的一篇博客 ： <a href="https://blog.yiang.store/post/e6069c16.html">拥有一台云虚机了</a></p><p>但是那个时候还没啥经验和知识，比起几个月后的现在多少有点逊色<br><em>（虽然那是我第一次看到服务器后台的样子啊）</em></p><p> <img src="https://img.yiang.store/Blog-img20210529014520.png"></p><p>后来没过多久那台机就被回收了，但我没有啥可惜的，毕竟其一没花钱，其二是不知道怎么用</p><hr><p>但现在不一样，花钱了，2核4G的服务器，三年啊<br>这三年，是一个赌注</p><p>挂京豆换钱并不是我买服务器的初衷，而是一个买服务器的机会</p><p>如果没有京豆的加持，我可能永远只会在一个观望的角度而不敢真正行动，因为很可能让我入不敷出而非常后悔。</p><p><em>毕竟花钱来学习，对我来说是一种奢侈的东西，更是一种可悲。</em></p><p>所以京豆，可能成了我目前唯一的慰藉<br>双十一季度来临之前，我在找脚本的时候也遇到了一位通过服务器挂载京豆脚本的大侠。通过他的服务器帮助，仅十来天啊，四千京豆，直接抵扣了四十元。</p><p>这个数字直接震撼了我，每天啥也不用做，甚至京东别的活动都没有做，红包不算在内，这个收入已经非常高了。加上还有红包、一分钱订单后续波澜、各种活动币等等带来了一系列反应，足够我的生活再上一个档次。</p><!-- 依然非常地感谢那位带我打开眼界的大侠 --><p>足够了啊，这一个理由就足够了。我必须拥有这一项技术并应用起来。</p><p>所以我今天牙一咬，三年！</p><img src="https://img.yiang.store/Yiang202111110050819.jpg"/><p>为什么说三年是赌注，因为按照阿里云套路，第一年很便宜之后续费时绝对会很头疼，就像域名入手时首年6元，现在一年59元。我赌我能使用服务器3年，也赌3年之后的我能更有出息，能买得起更昂贵的服务器或者直接买一台放家里。（不过按照现在的发展路线，3年够我走很远了）</p><p>我赌我能成功，也赌上我的更高的生活质量</p><ul><li>如果可以，<br>两年后我可以用上京豆抵押过半金额买下一台高端机或者一个更好的电脑</li><li>如果可以，<br>我想做出一套完美的京豆从运行到推送的服务器系统还要挂载网站在服务器</li><li>如果可以，<br>我想用代挂京豆收取微量服务器费用来弥补回来</li><li>如果可以，<br>我想像那位大侠一样，帮助和启发更多的人</li></ul><p>但起点不是在现在，现在我有更重要的事情去完成。服务器的配置及使用会随着寒假开始而开始，现在我只需要沉下气，等</p><hr><p>关于服务器规划</p><p>选购的时候咨询了一下大侠，购买了docker镜像，所以后来能不能同时做别的我也不知道）<br>2核4G，有点轻奢了已经<br>刚好碰上双十一，加上新人购买，一下买了3年</p><p>安装青龙面板，到脚本的安装等等，都已经到资料查询阶段</p><p>目前发展方向已经明确，只等着前面的完成了</p><p>寒假一到，所有工作都将开始，也算是给自己再挖个坑</p><hr><p><em>文末致谢：</em><br><em>@帮我挂京豆的大侠</em><br><em>@京东</em></p><p><em>以后发达了再回来报答你们</em></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我何止一次想过，拥有一台正式的服务器<br>也很多次，期盼着那更遥远的云端探索</p><hr><p>如果本地端的文件已经存不下了，我肯定会选择存在云端<br>所以，我的电脑也没有那么多能力来完成一些事情，那就只能求助于云端的老表了</p><p>考虑了很久，没有买ECS，而是买了轻量应用服务器</p><p>当然，不止用来挂jd，还有学习、测试、Blog3.0等等等等</p><p>我从来都不可能只考虑一个东西的，就像企业微信还可以更方便地拿来推送消息</p><hr><p>自从开始萌发搭建网站的想法，服务器就成了我心头的大石。<strong>真正的高级网站，谁愿意只是挂载在GitHub上的静态网站。而真正想做出前端的我，又何曾不想在服务器搭建一个有后端的网站。</strong></p><p>就像以前写的一篇博客 ： <a href="https://blog.yiang.store/post/e6069c16.html">拥有一台云虚机了</a></p><p>但是那个时候还没啥经验和知识，比起几个月后的现在多少有点逊色<br><em>（虽然那是我第一次看到服务器后台的样子啊）</em></p><p> <img src="https://img.yiang.store/Blog-img20210529014520.png"></p><p>后来没过多久那台机就被回收了，但我没有啥可惜的，毕竟其一没花钱，其二是不知道怎么用</p><hr><p>但现在不一样，花钱了，2核4G的服务器，三年啊<br>这三年，是一个赌注</p><p>挂京豆换钱并不是我买服务器的初衷，而是一个买服务器的机会</p><p>如果没有京豆的加持，我可能永远只会在一个观望的角度而不敢真正行动，因为很可能让我入不敷出而非常后悔。</p><p><em>毕竟花钱来学习，对我来说是一种奢侈的东西，更是一种可悲。</em></p><p>所以京豆，可能成了我目前唯一的慰藉<br>双十一季度来临之前，我在找脚本的时候也遇到了一位通过服务器挂载京豆脚本的大侠。通过他的服务器帮助，仅十来天啊，四千京豆，直接抵扣了四十元。</p><p>这个数字直接震撼了我，每天啥也不用做，甚至京东别的活动都没有做，红包不算在内，这个收入已经非常高了。加上还有红包、一分钱订单后续波澜、各种活动币等等带来了一系列反应，足够我的生活再上一个档次。</p><!-- 依然非常地感谢那位带我打开眼界的大侠 --><p>足够了啊，这一个理由就足够了。我必须拥有这一项技术并应用起来。</p><p>所以我今天牙一咬，三年！</p><img src="https://img.yiang.store/Yiang202111110050819.jpg"/><p>为什么说三年是赌注，因为按照阿里云套路，第一年很便宜之后续费时绝对会很头疼，就像域名入手时首年6元，现在一年59元。我赌我能使用服务器3年，也赌3年之后的我能更有出息，能买得起更昂贵的服务器或者直接买一台放家里。（不过按照现在的发展路线，3年够我走很远了）</p><p>我赌我能成功，也赌上我的更高的生活质量</p><ul><li>如果可以，<br>两年后我可以用上京豆抵押过半金额买下一台高端机或者一个更好的电脑</li><li>如果可以，<br>我想做出一套完美的京豆从运行到推送的服务器系统还要挂载网站在服务器</li><li>如果可以，<br>我想用代挂京豆收取微量服务器费用来弥补回来</li><li>如果可以，<br>我想像那位大侠一样，帮助和启发更多的人</li></ul><p>但起点不是在现在，现在我有更重要的事情去完成。服务器的配置及使用会随着寒假开始而开始，现在我只需要沉下气，等</p><hr><p>关于服务器规划</p><p>选购的时候咨询了一下大侠，购买了docker镜像，所以后来能不能同时做别的我也不知道）<br>2核4G，有点轻奢了已经<br>刚好碰上双十一，加上新人购买，一下买了3年</p><p>安装青龙面板，到脚本的安装等等，都已经到资料查询阶段</p><p>目前发展方向已经明确，只等着前面的完成了</p><p>寒假一到，所有工作都将开始，也算是给自己再挖个坑</p><hr><p><em>文末致谢：</em><br><em>@帮我挂京豆的大侠</em><br><em>@京东</em></p>]]></content>
       
       
       <categories>
@@ -1932,11 +1954,11 @@
       
         <tags>
             
+            <tag> 致敬 </tag>
+            
             <tag> 服务器 </tag>
             
             <tag> 新坑 </tag>
-            
-            <tag> 致谢 </tag>
             
         </tags>
       
@@ -1963,7 +1985,7 @@
             
             <tag> 探索 </tag>
             
-            <tag> VPN </tag>
+            <tag> 全球上网 </tag>
             
         </tags>
       
@@ -1988,9 +2010,9 @@
       
         <tags>
             
-            <tag> 探索 </tag>
-            
             <tag> HTML </tag>
+            
+            <tag> 探索 </tag>
             
             <tag> 白嫖 </tag>
             
@@ -2019,9 +2041,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> vlog </tag>
+            <tag> 百万项目 </tag>
             
             <tag> HTML </tag>
             
@@ -2048,11 +2070,11 @@
       
         <tags>
             
+            <tag> 我的网站 </tag>
+            
+            <tag> 百万项目 </tag>
+            
             <tag> 探索 </tag>
-            
-            <tag> 网站历程 </tag>
-            
-            <tag> vlog </tag>
             
             <tag> 新坑 </tag>
             
@@ -2081,9 +2103,9 @@
       
         <tags>
             
-            <tag> 计划 </tag>
+            <tag> 修仙之路 </tag>
             
-            <tag> 分析 </tag>
+            <tag> 计划 </tag>
             
         </tags>
       
@@ -2133,13 +2155,11 @@
       
         <tags>
             
-            <tag> 折射 </tag>
-            
             <tag> 生活记录仪 </tag>
             
             <tag> 白嫖 </tag>
             
-            <tag> 吃货的尊严 </tag>
+            <tag> 吃东西 </tag>
             
         </tags>
       
@@ -2167,8 +2187,6 @@
             <tag> Windows </tag>
             
             <tag> 探索 </tag>
-            
-            <tag> 折射 </tag>
             
         </tags>
       
@@ -2251,8 +2269,6 @@
             
             <tag> 思路 </tag>
             
-            <tag> 迷航 </tag>
-            
         </tags>
       
     </entry>
@@ -2276,15 +2292,11 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> 全球上网 </tag>
             
             <tag> 互联网冲浪 </tag>
-            
-            <tag> 旧手机 </tag>
-            
-            <tag> SEO </tag>
             
             <tag> 谷歌 </tag>
             
@@ -2313,7 +2325,7 @@
             
             <tag> 生活记录仪 </tag>
             
-            <tag> 吃货的尊严 </tag>
+            <tag> 吃东西 </tag>
             
         </tags>
       
@@ -2344,7 +2356,7 @@
             
             <tag> 节日 </tag>
             
-            <tag> 吃货的尊严 </tag>
+            <tag> 吃东西 </tag>
             
         </tags>
       
@@ -2369,11 +2381,11 @@
       
         <tags>
             
+            <tag> 人间观察者 </tag>
+            
             <tag> 大学 </tag>
             
             <tag> 心路历程 </tag>
-            
-            <tag> 视角 </tag>
             
         </tags>
       
@@ -2398,11 +2410,11 @@
       
         <tags>
             
+            <tag> 百万项目 </tag>
+            
             <tag> 探索 </tag>
             
             <tag> 生活记录仪 </tag>
-            
-            <tag> 计划 </tag>
             
             <tag> 绘画 </tag>
             
@@ -2442,7 +2454,7 @@
     
     
     <entry>
-      <title>冒出了个很危险的想法</title>
+      <title>冒出了个很危险的想法（画画）</title>
       <link href="post/b9cc559b.html"/>
       <url>post/b9cc559b.html</url>
       
@@ -2458,11 +2470,9 @@
       
         <tags>
             
-            <tag> 白嫖 </tag>
-            
             <tag> 互联网冲浪 </tag>
             
-            <tag> 思路 </tag>
+            <tag> 白嫖 </tag>
             
         </tags>
       
@@ -2487,13 +2497,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> HTML </tag>
-            
-            <tag> 计划 </tag>
-            
-            <tag> 百度 </tag>
             
         </tags>
       
@@ -2518,11 +2524,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> HTML </tag>
-            
-            <tag> 计划 </tag>
             
         </tags>
       
@@ -2547,11 +2551,11 @@
       
         <tags>
             
+            <tag> 人间观察者 </tag>
+            
             <tag> 怀旧 </tag>
             
-            <tag> 折射 </tag>
-            
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 讲故事的人 </tag>
             
@@ -2607,13 +2611,9 @@
             
             <tag> 探索 </tag>
             
-            <tag> VPN </tag>
-            
             <tag> 全球上网 </tag>
             
-            <tag> 时事 </tag>
-            
-            <tag> 缅怀 </tag>
+            <tag> 致敬 </tag>
             
         </tags>
       
@@ -2690,8 +2690,6 @@
       
         <tags>
             
-            <tag> 计划 </tag>
-            
             <tag> 故乡 </tag>
             
         </tags>
@@ -2717,7 +2715,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> 平面设计 </tag>
             
@@ -2746,9 +2744,9 @@
             
             <tag> 自我总结 </tag>
             
-            <tag> 探索 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站历程 </tag>
+            <tag> 探索 </tag>
             
             <tag> Blog2.0 </tag>
             
@@ -2779,11 +2777,7 @@
             
             <tag> 人间观察者 </tag>
             
-            <tag> 游戏 </tag>
-            
-            <tag> 视角 </tag>
-            
-            <tag> 分析 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 纪念 </tag>
             
@@ -2812,8 +2806,6 @@
             
             <tag> 探索 </tag>
             
-            <tag> IP </tag>
-            
         </tags>
       
     </entry>
@@ -2836,8 +2828,6 @@
       
       
         <tags>
-            
-            <tag> 缅怀 </tag>
             
             <tag> 纪念 </tag>
             
@@ -2867,8 +2857,6 @@
         <tags>
             
             <tag> 探索 </tag>
-            
-            <tag> 缅怀 </tag>
             
             <tag> 刷机 </tag>
             
@@ -2923,8 +2911,6 @@
             <tag> 怀旧 </tag>
             
             <tag> 节日 </tag>
-            
-            <tag> 缅怀 </tag>
             
             <tag> 时代说 </tag>
             
@@ -3040,13 +3026,9 @@
       
         <tags>
             
-            <tag> 时代说 </tag>
-            
             <tag> 自媒体 </tag>
             
-            <tag> 公众号 </tag>
-            
-            <tag> 统计 </tag>
+            <tag> 时代说 </tag>
             
         </tags>
       
@@ -3068,14 +3050,6 @@
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> 计划 </tag>
-            
-            <tag> 思路 </tag>
-            
-        </tags>
       
     </entry>
     
@@ -3100,11 +3074,11 @@
             
             <tag> 修仙之路 </tag>
             
+            <tag> 公众号同步 </tag>
+            
             <tag> 生活记录仪 </tag>
             
             <tag> 大学 </tag>
-            
-            <tag> 公众号同步 </tag>
             
             <tag> 时光胶囊 </tag>
             
@@ -3160,7 +3134,7 @@
       
         <tags>
             
-            <tag> 分析 </tag>
+            <tag> 人间观察者 </tag>
             
             <tag> 时代说 </tag>
             
@@ -3189,11 +3163,9 @@
       
         <tags>
             
-            <tag> 修仙之路 </tag>
+            <tag> 百万项目 </tag>
             
             <tag> 伟大空想家 </tag>
-            
-            <tag> 分析 </tag>
             
         </tags>
       
@@ -3218,9 +3190,7 @@
       
         <tags>
             
-            <tag> 游戏 </tag>
-            
-            <tag> 分析 </tag>
+            <tag> 第九艺术 </tag>
             
         </tags>
       
@@ -3324,8 +3294,6 @@
       
         <tags>
             
-            <tag> VPN </tag>
-            
             <tag> 全球上网 </tag>
             
             <tag> 白嫖 </tag>
@@ -3355,8 +3323,6 @@
             
             <tag> 小米 </tag>
             
-            <tag> MIUI </tag>
-            
             <tag> 鸿蒙 </tag>
             
         </tags>
@@ -3382,7 +3348,7 @@
       
         <tags>
             
-            <tag> 高考 </tag>
+            <tag> 生活记录仪 </tag>
             
         </tags>
       
@@ -3461,9 +3427,9 @@
       
         <tags>
             
-            <tag> Blog2.0 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 图床 </tag>
+            <tag> Blog2.0 </tag>
             
         </tags>
       
@@ -3513,13 +3479,11 @@
       
         <tags>
             
-            <tag> 时事 </tag>
+            <tag> 公众号同步 </tag>
             
-            <tag> 活动 </tag>
+            <tag> 互联网冲浪 </tag>
             
             <tag> 白嫖 </tag>
-            
-            <tag> 公众号同步 </tag>
             
         </tags>
       
@@ -3569,11 +3533,9 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> Blog2.0 </tag>
-            
-            <tag> 图床 </tag>
             
         </tags>
       
@@ -3597,8 +3559,6 @@
       
       
         <tags>
-            
-            <tag> 缅怀 </tag>
             
             <tag> 致敬 </tag>
             
@@ -3706,9 +3666,9 @@
             
             <tag> 花里胡哨 </tag>
             
-            <tag> 探索 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站历程 </tag>
+            <tag> 探索 </tag>
             
             <tag> Blog2.0 </tag>
             
@@ -3791,7 +3751,7 @@
             
             <tag> 怀旧 </tag>
             
-            <tag> 游戏 </tag>
+            <tag> 第九艺术 </tag>
             
             <tag> 纪念 </tag>
             
@@ -3845,7 +3805,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
             <tag> Blog2.0 </tag>
             
@@ -3901,7 +3861,7 @@
             
             <tag> 生活记录仪 </tag>
             
-            <tag> 名侦探柯南 </tag>
+            <tag> 影视 </tag>
             
         </tags>
       
@@ -3926,11 +3886,11 @@
       
         <tags>
             
+            <tag> 致敬 </tag>
+            
             <tag> 白嫖 </tag>
             
             <tag> 纪念 </tag>
-            
-            <tag> 致谢 </tag>
             
         </tags>
       
@@ -3968,7 +3928,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -3993,9 +3953,9 @@
       
         <tags>
             
-            <tag> 探索 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站历程 </tag>
+            <tag> 探索 </tag>
             
         </tags>
       
@@ -4049,7 +4009,7 @@
             
             <tag> 探索 </tag>
             
-            <tag> VPN </tag>
+            <tag> 全球上网 </tag>
             
         </tags>
       
@@ -4062,7 +4022,7 @@
       <link href="post/bfc6ec80.html"/>
       <url>post/bfc6ec80.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#49;&#64;&#121;&#105;&#97;&#110;&#x67;&#46;&#x73;&#x74;&#x6f;&#114;&#101;">&#49;&#64;&#121;&#105;&#97;&#110;&#x67;&#46;&#x73;&#x74;&#x6f;&#114;&#101;</a></li><li><a href="mailto:&#x68;&#64;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#115;&#116;&#111;&#114;&#x65;">&#x68;&#64;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#115;&#116;&#111;&#114;&#x65;</a></li><li><a href="mailto:&#x36;&#54;&#x36;&#x40;&#x79;&#x69;&#x61;&#x6e;&#x67;&#46;&#x73;&#116;&#x6f;&#x72;&#101;">&#x36;&#54;&#x36;&#x40;&#x79;&#x69;&#x61;&#x6e;&#x67;&#46;&#x73;&#116;&#x6f;&#x72;&#101;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#97;&#x62;&#x61;&#98;&#97;&#x62;&#x61;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#46;&#x73;&#116;&#x6f;&#x72;&#x65;">&#97;&#x62;&#x61;&#98;&#97;&#x62;&#x61;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#46;&#x73;&#116;&#x6f;&#x72;&#x65;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#97;&#98;&#x61;&#98;&#x61;&#98;&#x61;&#x40;&#121;&#105;&#97;&#110;&#103;&#46;&#115;&#116;&#111;&#x72;&#x65;">&#97;&#98;&#x61;&#98;&#x61;&#98;&#x61;&#x40;&#121;&#105;&#97;&#110;&#103;&#46;&#115;&#116;&#111;&#x72;&#x65;</a></em>”到我的邮箱<em><a href="mailto:&#x68;&#104;&#x79;&#x40;&#121;&#x69;&#97;&#x6e;&#103;&#46;&#x73;&#x74;&#x6f;&#114;&#101;">&#x68;&#104;&#x79;&#x40;&#121;&#x69;&#97;&#x6e;&#103;&#46;&#x73;&#x74;&#x6f;&#114;&#101;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#49;&#64;&#121;&#x69;&#97;&#110;&#x67;&#46;&#x73;&#116;&#111;&#114;&#x65;">&#49;&#64;&#121;&#x69;&#97;&#110;&#x67;&#46;&#x73;&#116;&#111;&#114;&#x65;</a></li><li><a href="mailto:&#x68;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#x73;&#116;&#111;&#x72;&#101;">&#x68;&#x40;&#121;&#105;&#x61;&#110;&#x67;&#x2e;&#x73;&#116;&#111;&#x72;&#101;</a></li><li><a href="mailto:&#x36;&#54;&#54;&#x40;&#121;&#x69;&#x61;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#114;&#101;">&#x36;&#54;&#54;&#x40;&#121;&#x69;&#x61;&#110;&#103;&#x2e;&#x73;&#x74;&#111;&#114;&#101;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#x61;&#x62;&#x61;&#x62;&#97;&#98;&#x61;&#64;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#116;&#x6f;&#x72;&#101;">&#x61;&#x62;&#x61;&#x62;&#97;&#98;&#x61;&#64;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#116;&#x6f;&#x72;&#101;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#x61;&#98;&#x61;&#x62;&#x61;&#x62;&#97;&#x40;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#x73;&#116;&#111;&#x72;&#x65;">&#x61;&#98;&#x61;&#x62;&#x61;&#x62;&#97;&#x40;&#x79;&#105;&#97;&#x6e;&#x67;&#x2e;&#x73;&#116;&#111;&#x72;&#x65;</a></em>”到我的邮箱<em><a href="mailto:&#x68;&#x68;&#121;&#x40;&#121;&#105;&#x61;&#110;&#103;&#46;&#115;&#x74;&#111;&#x72;&#101;">&#x68;&#x68;&#121;&#x40;&#121;&#105;&#x61;&#110;&#103;&#46;&#115;&#x74;&#111;&#x72;&#101;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
       
       
       <categories>
@@ -4074,13 +4034,13 @@
       
         <tags>
             
-            <tag> 修仙之路 </tag>
-            
             <tag> 花里胡哨 </tag>
             
-            <tag> 探索 </tag>
+            <tag> 修仙之路 </tag>
             
             <tag> 公众号同步 </tag>
+            
+            <tag> 探索 </tag>
             
         </tags>
       
@@ -4093,7 +4053,7 @@
       <link href="post/10da8cd0.html"/>
       <url>post/10da8cd0.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#88;&#x58;&#88;&#64;&#121;&#105;&#x61;&#110;&#103;&#46;&#115;&#x74;&#x6f;&#114;&#101;">&#88;&#x58;&#88;&#64;&#121;&#105;&#x61;&#110;&#103;&#46;&#115;&#x74;&#x6f;&#114;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://img.yiang.store/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#88;&#88;&#x58;&#x40;&#121;&#x69;&#x61;&#x6e;&#x67;&#46;&#115;&#116;&#111;&#x72;&#101;">&#88;&#88;&#x58;&#x40;&#121;&#x69;&#x61;&#x6e;&#x67;&#46;&#115;&#116;&#111;&#x72;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://img.yiang.store/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
       
       
       <categories>
@@ -4132,7 +4092,7 @@
       
         <tags>
             
-            <tag> Minecraft </tag>
+            <tag> 第九艺术 </tag>
             
         </tags>
       
@@ -4159,9 +4119,9 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 纪念 </tag>
+            <tag> 生活记录仪 </tag>
             
-            <tag> 职业生涯 </tag>
+            <tag> 纪念 </tag>
             
         </tags>
       
@@ -4186,9 +4146,9 @@
       
         <tags>
             
-            <tag> 探索 </tag>
+            <tag> 我的网站 </tag>
             
-            <tag> 网站历程 </tag>
+            <tag> 探索 </tag>
             
             <tag> 服务器 </tag>
             
@@ -4240,7 +4200,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -4325,8 +4285,6 @@
       
         <tags>
             
-            <tag> 分析 </tag>
-            
             <tag> 学业 </tag>
             
         </tags>
@@ -4352,7 +4310,7 @@
       
         <tags>
             
-            <tag> 网站历程 </tag>
+            <tag> 我的网站 </tag>
             
         </tags>
       
