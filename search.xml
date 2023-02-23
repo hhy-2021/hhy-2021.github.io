@@ -4,6 +4,95 @@
   
     
     <entry>
+      <title>cloudflare 搭建网站和js应用</title>
+      <link href="post/shortlink0224.html"/>
+      <url>post/shortlink0224.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我在去年11月买的新域名，开始备案的时候就转到 cloudflare 的 DNS，然后就发现许久不见，cf加了蛮多功能。有了一个 workers，一开始也还没注意，后来想搭建一个转短链接功能的时候就看到有用这个workers功能实现的，于是有了今天这篇博客。</p><hr><h2 id="workers-和-KV"><a href="#workers-和-KV" class="headerlink" title="workers 和 KV"></a>workers 和 KV</h2><p>如果你也去看这些教程，大部分会让新建一个 “KV” 的东西，而且起个名字绑定一下就行。然后就弄个worker，搞些代码进去就实现功能了……</p><img src="https://img.yiang.store/202302240210160.png"/><p>就上面这些，我曾经研究一晚上没玩明白。</p><p>直到20号晚上，我很无聊，再一次看来一遍那个转短链接的教程视频，然后顺藤摸瓜地做出了一个转短链接网站！<br>当然，作为html中链接元素的 “a” ，也就作为二级域名的主机名，网址就是：<code>a.h2y1.cn</code></p><img src="https://img.yiang.store/202302240217690.png"/><p>举个例子，本期的链接就变成了： <a href="https://a.h2y1.cn/short">a.h2y1.cn/short</a><br>就这样，我的自定义域名短链接服务诞生了(￣▽￣)”</p><hr><p>其实一开始的版本是不能自定义链接的，我是搞懂了原理之后又去GitHub搜刮了一圈，发现这个版本的js代码还ok啦。</p><blockquote><p>KV：就相当于一个只有两个选项的数据库</p></blockquote><blockquote><p>worker：就相当于一个运行js代码的模块，因为短链接需要有后台数据所以需要KV</p></blockquote><p>然后我又看了一些教学，弄了一个GitHub的文件加速下载站！相当于解析然后换成cf的下载源吧大概，速度是有快一点点不过还是有的慢的啦~</p><blockquote><p>网址：  <code>gh.h2y1.cn</code></p></blockquote><img src="https://img.yiang.store/202302240228790.png"/><hr><h2 id="题外话"><a href="#题外话" class="headerlink" title="题外话"></a>题外话</h2><p>如果有一个东西是网络上经常看见，却不知道来源于哪里的，那么很有可能是cloudflare的杰作。就像很多异常流量时的人机测试验证码，找斑马线灭火时红绿灯，很多检查网站连接是否异常，甚至chatGPT判断流量的时候，都可能出现一朵黄色的云，那就是~cloudflare<br>最近几天使用它的服务很多，不只是上面搭建的两个js功能的网站，我那天打算搞chatGPT账号销售的时候也搭建了一个网页，用的就是 cloudflare pages，比 GitHub pages更快速，更简单的操作，虽然不能编辑，还是不够好用，但是作为轻量化的 pages 功能，属实很不错了！</p><p>同时利用它，也是能搭建hexo博客啊等等之类的，而且源码仓库还不会被偷窥，还挺好哎~</p><p>cloudflare的worker，直接一键绑定二级域名，真正的几分钟搭建网站（网页）啊 (●ˇ∀ˇ●)</p><img src="https://img.yiang.store/202302240231568.png"/>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 科技 </tag>
+            
+            <tag> 我的网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2022年度总结</title>
+      <link href="post/2022.html"/>
+      <url>post/2022.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="一"><a href="#一" class="headerlink" title="一"></a>一</h2><img src="https://img.yiang.store/202302232219820.png" width=50%/>那么 2022年的年度总结呢 就算是完结啦<img src="https://img.yiang.store/202302232230290.png" width=50%/><p>一共一万多字，写了好几天😂</p><hr><h2 id="二"><a href="#二" class="headerlink" title="二"></a>二</h2><p>刚刚去看了2021的年度总结，看着很尴尬，所以今年的进步应该是挺大的。<br>这次的年度总结以视频和文档的形式保存，算是在保守的形势下进行了一点改变。视频由我的第一台单反尼康D90录制，比较即兴的发挥，也是我首次出现在视频的正式场合里。录完视频顺便拍了几张纪念照。</p><img src="https://img.yiang.store/202302232239763.jpg" width=70%/><p>当然，这张照片并不是当时拍的，当时拍得比较烂，这张是后来几天拍的，凑合塞进来。</p><hr><h2 id="三"><a href="#三" class="headerlink" title="三"></a>三</h2><p>这次的年终总结分为<strong>七个大篇章和四个番外篇</strong>。</p><blockquote><p><strong>七个主篇章</strong></p><ul><li>一、改革篇</li><li>二、感情篇</li><li>三、信息篇</li><li>四、硬件篇</li><li>五、科技篇</li><li>六、生活篇</li><li>七、社交篇</li></ul></blockquote><blockquote><p><strong>番外篇</strong></p><ul><li>年度颁奖典礼</li><li>年度歌单</li><li>光遇计划</li><li>大时代</li></ul></blockquote><h2 id="四"><a href="#四" class="headerlink" title="四"></a>四</h2><p>至于细节，那就更不可能在线上公开啦~</p><p>在这一年，很多计划来来回回改，很多事情拖了很久没解决，很多坑没有填。害<br>根本搞不完。</p><p>现在还有很多很多个待完成的事情，包括整改我的这个博客网站。因为我发现我以前的某些时候写的某些东西真的是见不得人呐！</p><h2 id="五"><a href="#五" class="headerlink" title="五"></a>五</h2><p>没了，也没啥好写在博客的~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 忆 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自我总结 </tag>
+            
+            <tag> 修仙之路 </tag>
+            
+            <tag> 心路历程 </tag>
+            
+            <tag> 纪念 </tag>
+            
+            <tag> 时代说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>chatGPT应用</title>
+      <link href="post/8bf598c4.html"/>
+      <url>post/8bf598c4.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我是2022年底开始玩chatGPT的，那个时候各种教程还少，基本全是教注册的。现在随着更多人注重 prompts engineering ，GPT也越来越好玩了~</p><hr><h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p>我用我的 h2y1.cn 域名在cloudflare发放了很多个邮箱，并拿来注册chatGPT。因为我发现一个号带有18美金的 api key 可以使用。<br>其实9号的时候我就在用AI训练一个我自己的声音的模型，可惜没有成功搞明白这个项目。然后10号开始我就在想着开发GPT的第三方应用。</p><p>我直接叫GPT给我写python来调用GPT-3，然后在电脑本地使用。<br>结果遇到了bug</p><img src="https://img.yiang.store/202302232255069.png"/><p>恼</p><p>然后我全网寻找搭建镜像站的源码。其实我叫了gpt给我写网站，但他写的我用着好奇怪而且不美观。<br>然后我就去偷了个网站来自己搭建了。一直到凌晨2点，我把网页版整出来了，并部署在了cloudflare上，绑定了我自己的域名 test.ai.h2y1.cn</p><img src="https://img.yiang.store/202302232259699.png"/><img src="https://img.yiang.store/202302232259210.png"/><p>对，它经常出错，调用不到api，好像纯静态网页版都是这样的。等很久等出一个错误，真的很崩溃，所以那天晚上我一直叫gpt写凄凉的诗~~</p><h2 id="创业"><a href="#创业" class="headerlink" title="创业"></a>创业</h2><p>是的，我本来的想法是，搭建网站或者小程序然后放广告。然后我做不起来。因为我的网站使用效果远远不如官方网站，那消费者干嘛不使用官方网站呢？干嘛不使用呢？干嘛呢？肯定是因为没账号/没得翻墙咯，那我就卖账号呀！嘿嘿！</p><p>那天晚上想到这里，赶紧组织了一下流程，时间不多，得赶紧行动。熬夜到两点左右把文案和策略想了出来。</p><blockquote><p>还有一个主要的原因是，基本电商平台都把chatGPT账号相关商品下线了，所以市场很大！</p></blockquote><p>第二天我八点起床，赶紧写网页和做图片，然后进行宣发。12小时之间，我忙得不可开交。我已经很久没有8点起床了，真的很亢奋。</p><p>后来我在我的记事日历上写下了这么一句话：<strong>每一次冒险都是一次成长–20220215</strong></p><p>事实证明我是对的，第一天的销售额就突破了我的期待值……</p><h2 id="chatGPT开发还没完！"><a href="#chatGPT开发还没完！" class="headerlink" title="chatGPT开发还没完！"></a>chatGPT开发还没完！</h2><p>因为我为了我的业务，也是拓展了很多关于AI的渠道，然后看了很多大佬的创业思维、想法<br>跟他们相处压力太大了，每天一睁眼看看群消息，就知道科技前沿又搞了什么新应用或者服务，然后我只看得懂原理且没有能力做出一个一样的，<em>每一个赚钱的机会都在我耳边呼啸，而我是个聋子。</em></p><p>当然我也去学了很多，我把方向放在了国外的教学  <strong>prompts engineering</strong><br>我让AI为我写英文作文，为我翻译，为我解析单词。这是学习效率非常高的。我打算靠这招过英语六级，你觉得呢？！</p><img src="https://img.yiang.store/202302232322398.png" width=70%/><p>某天用着chatGPT，用着用着卡了一下，刷新页面发现多了一个plus会员，打开一看一个月20，等等，后面那个 $ 符号是什么意思？？？<br>然后弄明白一看尼玛一个月一百多，我擦，要是20块钱我还得为信仰买单，20美金的话信仰当场崩塌！<br>然后我也发现很多搞国际支付的也活跃了，一大招牌就是能买chatGPT的plus，好家伙，看来AI的领域真是广，把这群半辈子打不到照面的人都拉出来了</p><p>那来都来了，我也顺便办了个visa卡。毕竟也是我很久的梦想了。跟中国银行和招商银行申请的国际信用卡，全部被否决了，可能因为是大学生吧唉&amp;……*%》（@<br>visa卡有了，我就能继续在国际市场生龙活虎了，谷歌应用商店总不能限制到我了吧哈哈哈哈，还有亚马逊，我来啦！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> 百万项目 </tag>
+            
+            <tag> 探索 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>拣爱</title>
       <link href="post/ba63928.html"/>
       <url>post/ba63928.html</url>
@@ -120,9 +209,9 @@
       
         <tags>
             
-            <tag> 节日 </tag>
-            
             <tag> 时代说 </tag>
+            
+            <tag> 节日 </tag>
             
         </tags>
       
@@ -220,13 +309,13 @@
       
         <tags>
             
-            <tag> 生活记录仪 </tag>
-            
             <tag> 心路历程 </tag>
             
-            <tag> 节日 </tag>
-            
             <tag> 纪念 </tag>
+            
+            <tag> 生活记录仪 </tag>
+            
+            <tag> 节日 </tag>
             
         </tags>
       
@@ -252,6 +341,8 @@
         <tags>
             
             <tag> 科技 </tag>
+            
+            <tag> AI </tag>
             
             <tag> 探索 </tag>
             
@@ -305,9 +396,9 @@
       
         <tags>
             
-            <tag> 人间观察者 </tag>
-            
             <tag> 时代说 </tag>
+            
+            <tag> 人间观察者 </tag>
             
             <tag> 故乡 </tag>
             
@@ -392,11 +483,11 @@
       
         <tags>
             
+            <tag> 时代说 </tag>
+            
             <tag> 第九艺术 </tag>
             
             <tag> 生活记录仪 </tag>
-            
-            <tag> 时代说 </tag>
             
             <tag> 心情 </tag>
             
@@ -423,6 +514,8 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 科技 </tag>
             
             <tag> 公众号同步 </tag>
@@ -430,8 +523,6 @@
             <tag> 互联网冲浪 </tag>
             
             <tag> 服务器 </tag>
-            
-            <tag> 纪念 </tag>
             
         </tags>
       
@@ -599,9 +690,9 @@
             
             <tag> 公众号同步 </tag>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 我的网站 </tag>
             
             <tag> 自媒体 </tag>
             
@@ -711,9 +802,9 @@
       
         <tags>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 我的网站 </tag>
             
             <tag> 新坑 </tag>
             
@@ -746,9 +837,9 @@
             
             <tag> 人间观察者 </tag>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -773,9 +864,9 @@
       
         <tags>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 心路历程 </tag>
+            
+            <tag> 我的网站 </tag>
             
         </tags>
       
@@ -1075,9 +1166,9 @@
       
         <tags>
             
-            <tag> 探索 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 探索 </tag>
             
             <tag> 互联网冲浪 </tag>
             
@@ -1513,9 +1604,9 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 纪念 </tag>
+            
+            <tag> 我的网站 </tag>
             
             <tag> 域名 </tag>
             
@@ -1571,9 +1662,9 @@
       
         <tags>
             
-            <tag> 人间观察者 </tag>
-            
             <tag> 自我总结 </tag>
+            
+            <tag> 人间观察者 </tag>
             
         </tags>
       
@@ -1885,9 +1976,9 @@
       
         <tags>
             
-            <tag> 伟大空想家 </tag>
-            
             <tag> 时代说 </tag>
+            
+            <tag> 伟大空想家 </tag>
             
         </tags>
       
@@ -1912,9 +2003,9 @@
       
         <tags>
             
-            <tag> 人间观察者 </tag>
-            
             <tag> 自我总结 </tag>
+            
+            <tag> 人间观察者 </tag>
             
         </tags>
       
@@ -2122,9 +2213,9 @@
       
         <tags>
             
-            <tag> 我的网站 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 我的网站 </tag>
             
             <tag> HTML </tag>
             
@@ -2151,11 +2242,11 @@
       
         <tags>
             
+            <tag> 百万项目 </tag>
+            
             <tag> 探索 </tag>
             
             <tag> 我的网站 </tag>
-            
-            <tag> 百万项目 </tag>
             
             <tag> 新坑 </tag>
             
@@ -2462,11 +2553,11 @@
       
         <tags>
             
+            <tag> 心路历程 </tag>
+            
             <tag> 人间观察者 </tag>
             
             <tag> 大学 </tag>
-            
-            <tag> 心路历程 </tag>
             
         </tags>
       
@@ -2491,9 +2582,9 @@
       
         <tags>
             
-            <tag> 探索 </tag>
-            
             <tag> 百万项目 </tag>
+            
+            <tag> 探索 </tag>
             
             <tag> 生活记录仪 </tag>
             
@@ -2856,11 +2947,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 人间观察者 </tag>
             
             <tag> 第九艺术 </tag>
-            
-            <tag> 纪念 </tag>
             
         </tags>
       
@@ -2989,11 +3080,11 @@
       
         <tags>
             
+            <tag> 时代说 </tag>
+            
             <tag> 怀旧 </tag>
             
             <tag> 节日 </tag>
-            
-            <tag> 时代说 </tag>
             
         </tags>
       
@@ -3018,11 +3109,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 怀旧 </tag>
             
             <tag> 大学 </tag>
-            
-            <tag> 纪念 </tag>
             
         </tags>
       
@@ -3047,9 +3138,9 @@
       
         <tags>
             
-            <tag> 人间观察者 </tag>
-            
             <tag> 修仙之路 </tag>
+            
+            <tag> 人间观察者 </tag>
             
             <tag> 信息流 </tag>
             
@@ -3107,9 +3198,9 @@
       
         <tags>
             
-            <tag> 自媒体 </tag>
-            
             <tag> 时代说 </tag>
+            
+            <tag> 自媒体 </tag>
             
         </tags>
       
@@ -3215,9 +3306,9 @@
       
         <tags>
             
-            <tag> 人间观察者 </tag>
-            
             <tag> 时代说 </tag>
+            
+            <tag> 人间观察者 </tag>
             
             <tag> 信息流 </tag>
             
@@ -3666,9 +3757,9 @@
       
         <tags>
             
-            <tag> 生活记录仪 </tag>
-            
             <tag> 纪念 </tag>
+            
+            <tag> 生活记录仪 </tag>
             
         </tags>
       
@@ -3801,11 +3892,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 生活记录仪 </tag>
             
             <tag> 大学 </tag>
-            
-            <tag> 纪念 </tag>
             
         </tags>
       
@@ -3830,11 +3921,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 怀旧 </tag>
             
             <tag> 第九艺术 </tag>
-            
-            <tag> 纪念 </tag>
             
             <tag> 心情 </tag>
             
@@ -3967,11 +4058,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 致敬 </tag>
             
             <tag> 白嫖 </tag>
-            
-            <tag> 纪念 </tag>
             
         </tags>
       
@@ -4103,7 +4194,7 @@
       <link href="post/bfc6ec80.html"/>
       <url>post/bfc6ec80.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#49;&#64;&#121;&#105;&#x61;&#x6e;&#x67;&#x2e;&#x73;&#x74;&#x6f;&#x72;&#101;">&#49;&#64;&#121;&#105;&#x61;&#x6e;&#x67;&#x2e;&#x73;&#x74;&#x6f;&#x72;&#101;</a></li><li><a href="mailto:&#104;&#x40;&#x79;&#x69;&#97;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#114;&#101;">&#104;&#x40;&#x79;&#x69;&#97;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#114;&#101;</a></li><li><a href="mailto:&#x36;&#54;&#54;&#64;&#x79;&#105;&#97;&#x6e;&#103;&#x2e;&#x73;&#x74;&#x6f;&#114;&#101;">&#x36;&#54;&#54;&#64;&#x79;&#105;&#97;&#x6e;&#103;&#x2e;&#x73;&#x74;&#x6f;&#114;&#101;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#97;&#98;&#x61;&#x62;&#97;&#x62;&#97;&#64;&#121;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#x72;&#101;">&#97;&#98;&#x61;&#x62;&#97;&#x62;&#97;&#64;&#121;&#105;&#97;&#x6e;&#x67;&#x2e;&#115;&#x74;&#111;&#x72;&#101;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#97;&#98;&#97;&#x62;&#x61;&#98;&#x61;&#64;&#x79;&#105;&#97;&#110;&#x67;&#46;&#115;&#116;&#111;&#114;&#101;">&#97;&#98;&#97;&#x62;&#x61;&#98;&#x61;&#64;&#x79;&#105;&#97;&#110;&#x67;&#46;&#115;&#116;&#111;&#114;&#101;</a></em>”到我的邮箱<em><a href="mailto:&#x68;&#x68;&#x79;&#x40;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#115;&#x74;&#x6f;&#114;&#101;">&#x68;&#x68;&#x79;&#x40;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#115;&#x74;&#x6f;&#114;&#101;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="开放注册-yiang-store-邮箱"><a href="#开放注册-yiang-store-邮箱" class="headerlink" title="开放注册 @yiang.store 邮箱"></a>开放注册 @yiang.store 邮箱</h2><hr><p>经过了一晚上内测时间，测试的几个邮箱服务基本没有出现错误，内测通过<br>3.25发布公测  </p><h3 id="这个邮箱有什么好处"><a href="#这个邮箱有什么好处" class="headerlink" title="这个邮箱有什么好处"></a>这个邮箱有什么好处</h3><ol><li><p>支持靓号选择，如：</p><blockquote><ul><li><a href="mailto:&#x31;&#x40;&#x79;&#x69;&#97;&#110;&#103;&#46;&#115;&#116;&#111;&#114;&#x65;">&#x31;&#x40;&#x79;&#x69;&#97;&#110;&#103;&#46;&#115;&#116;&#111;&#114;&#x65;</a></li><li><a href="mailto:&#x68;&#64;&#121;&#x69;&#x61;&#110;&#103;&#46;&#x73;&#x74;&#x6f;&#114;&#x65;">&#x68;&#64;&#121;&#x69;&#x61;&#110;&#103;&#46;&#x73;&#x74;&#x6f;&#114;&#x65;</a></li><li><a href="mailto:&#54;&#x36;&#x36;&#x40;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#x73;&#x74;&#111;&#114;&#x65;">&#54;&#x36;&#x36;&#x40;&#121;&#x69;&#97;&#x6e;&#x67;&#46;&#x73;&#x74;&#111;&#114;&#x65;</a>  </li></ul></blockquote></li><li><p>为你多一个不同的邮箱</p><blockquote><p>一开始我的初衷便是如此，QQ邮箱暴露了qq账号，好巧不巧注册网易邮箱的时候把手机号加进去了。所以想要注册一个不暴露社交账号的邮箱供使用以便不时之需。</p></blockquote></li><li><p>添加一个小号</p><blockquote><p>邮箱注册其它东西的时候通常都会用到，如果你QQ邮箱和网易邮箱都已经注册，或许我可以帮到你呢</p></blockquote></li><li><p><strong>添加邮箱很便捷</strong></p><blockquote><p>完美兼容手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></p></blockquote></li><li><p>可以不绑定手机号，且只要记住密码，随处随时使用</p><h3 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h3></li></ol><ul><li>手机“电子邮件”APP 以及 win10系统自带的“邮件”，<strong>使用邮箱和密码即可直接登录</strong></li><li>在别的邮箱中，添加一个“其它邮箱”，例如在QQ邮箱中添加一个<em><a href="mailto:&#97;&#x62;&#97;&#x62;&#97;&#x62;&#x61;&#64;&#121;&#x69;&#x61;&#x6e;&#x67;&#x2e;&#x73;&#x74;&#111;&#114;&#101;">&#97;&#x62;&#97;&#x62;&#97;&#x62;&#x61;&#64;&#121;&#x69;&#x61;&#x6e;&#x67;&#x2e;&#x73;&#x74;&#111;&#114;&#101;</a></em>，在“添加邮箱”页面，输入邮箱和密码后，会出现一个选择服务器以及端口，如下添加  <blockquote><p>服务器：pop3.mxhichina.com<br>端口：995<br>SSL √  </p></blockquote></li><li>正常情况下便可以添加了，如还需发件服务器，则如下<blockquote><p>stmp服务器：stmp.mxhichina.com<br>端口：465<br>SSL √  </p></blockquote></li></ul><p><strong>但是值得注意的是，在正常邮箱软件中是不需要填写那么多的，一般输入邮箱地址和密码，默认状态下（或者pop3）便可登录邮箱！</strong></p><h3 id="申请方法"><a href="#申请方法" class="headerlink" title="申请方法"></a>申请方法</h3><p>将邮箱名通过任何联系方式发送给我，若没有人注册过该邮箱，我便会为你创建一个邮箱<br>如：  </p><blockquote><p>你用QQ邮箱，发送“<em><a href="mailto:&#97;&#x62;&#x61;&#98;&#x61;&#x62;&#97;&#64;&#x79;&#x69;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#x6f;&#x72;&#101;">&#97;&#x62;&#x61;&#98;&#x61;&#x62;&#97;&#64;&#x79;&#x69;&#97;&#110;&#103;&#x2e;&#x73;&#x74;&#x6f;&#x72;&#101;</a></em>”到我的邮箱<em><a href="mailto:&#104;&#104;&#x79;&#x40;&#x79;&#105;&#97;&#x6e;&#103;&#x2e;&#115;&#x74;&#x6f;&#x72;&#101;">&#104;&#104;&#x79;&#x40;&#x79;&#105;&#97;&#x6e;&#103;&#x2e;&#115;&#x74;&#x6f;&#x72;&#101;</a></em>,我会在24小时内为你创建一个该地址的邮箱，并发回QQ邮箱告诉你邮箱已经创建好了  </p></blockquote><p>拿到邮箱后，可更改默认密码以便提高安全性  </p><h3 id="更多相关信息"><a href="#更多相关信息" class="headerlink" title="更多相关信息"></a>更多相关信息</h3><ul><li>该域名邮箱不会提供非常多名额供给注册；</li><li>邮箱服务为阿里云的免费服务；</li><li>邮箱隶属于阿里云企业邮箱，因此<strong>你可以使用邮箱登陆阿里云企业邮箱，然后在里面进行修改密码、绑定手机等操作</strong>；</li><li>承诺5年内维护邮箱，理论上长期维护；</li><li>在成功创建邮箱后，登录上去后回收到更多邮箱使用说明，例如上述的修改密码等；</li><li>如发生不可抗力，会提前发送邮件说明和提醒；</li><li>最终解释权归邮箱提供方我所有</li></ul>]]></content>
       
       
       <categories>
@@ -4134,7 +4225,7 @@
       <link href="post/10da8cd0.html"/>
       <url>post/10da8cd0.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#x58;&#88;&#x58;&#x40;&#121;&#105;&#x61;&#x6e;&#x67;&#46;&#115;&#x74;&#x6f;&#114;&#101;">&#x58;&#88;&#x58;&#x40;&#121;&#105;&#x61;&#x6e;&#x67;&#46;&#115;&#x74;&#x6f;&#114;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://img.yiang.store/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>买了域名以来，对于各种云产品的接触都大了，突发奇想，想自己开一个域名邮箱。<br>QQ邮箱和网易邮箱大家都在用，对吧，我就想整个跟大伙不一样的，刚好我也有域名不是，如果能做一个独立邮箱出来，那肯定与众不同，关键是能多开几个小号，最近出来QQ邮箱和163邮箱外，已经没有多余的邮箱来注册一些东西了。  </p><p><strong>日常整活，说干就干</strong>  </p><ol><li>邮箱肯定要有一个服务器，还要能长期运行不会说崩就崩的，那就肯定不会是我自己的服务器了；  </li><li>QQ邮箱和网易邮箱也不支持绑定自己的域名了，排除；</li><li>要开独立域名邮箱好像也得是企业邮箱，看了腾讯和网易，好家伙全是收费的，还那么贵；然后去了隔壁阿里云，果然有免费版嘿嘿嘿；</li><li>创建完企业邮箱，绑定域名一气呵成（接触这么久，看到这些都觉得轻而易举了）</li></ol><p>所以现在，只要是 </p><blockquote><p><a href="mailto:&#x58;&#x58;&#88;&#x40;&#x79;&#105;&#x61;&#110;&#103;&#46;&#x73;&#x74;&#111;&#x72;&#101;">&#x58;&#x58;&#88;&#x40;&#x79;&#105;&#x61;&#110;&#103;&#46;&#x73;&#x74;&#111;&#x72;&#101;</a>  </p></blockquote><p>名字我还可以随便取</p><p><img src="https://img.yiang.store/Blog-img20210529014649.png" alt="阿里云企业邮箱"></p><p>（上流）  </p><p>而且，最多我可以创50个邮箱，邮箱名还可以随便起，以后不怕没有邮箱去注册东西了嚯嚯嚯<br>顺便说一句：阿里云，慈善公司啊，域名也是阿里云买的，要不是服务器用不上也买了，阿里云盘也好用，速度和容量吊打毒盘（内测用户偷笑）</p>]]></content>
       
       
       <categories>
@@ -4200,9 +4291,9 @@
             
             <tag> 修仙之路 </tag>
             
-            <tag> 生活记录仪 </tag>
-            
             <tag> 纪念 </tag>
+            
+            <tag> 生活记录仪 </tag>
             
         </tags>
       
@@ -4306,9 +4397,9 @@
       
         <tags>
             
-            <tag> 生活记录仪 </tag>
-            
             <tag> 纪念 </tag>
+            
+            <tag> 生活记录仪 </tag>
             
             <tag> 心情 </tag>
             
@@ -4335,11 +4426,11 @@
       
         <tags>
             
+            <tag> 纪念 </tag>
+            
             <tag> 生活记录仪 </tag>
             
             <tag> 节日 </tag>
-            
-            <tag> 纪念 </tag>
             
             <tag> 故乡 </tag>
             
